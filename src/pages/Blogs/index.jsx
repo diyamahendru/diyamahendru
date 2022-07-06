@@ -36,7 +36,7 @@ const Blogs = () => {
 
   return (
     <div>
-      <Link className="blogs-goBack" to="/">
+      <Link className="blogs-goBack" to="/site">
         <span> &#8592;</span> <span>Home</span>
       </Link>
       <Header />
