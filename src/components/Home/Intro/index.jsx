@@ -10,14 +10,17 @@ function Home() {
         </div>
         <div className="intro-pic">
           <img
-            src="/public/assets/images/author.jpg"
+            src="/assets/images/intropic.png"
             className="display-picture"
             alt="display-pic"
           />
         </div>
         <div className="intro-text2">
           <h4>I am Diya Mahendru</h4>
-          <h6>MERN Stack Developer | Book Nerd | Budding Chess Player | Yoga Enthusiast</h6>
+          <h6>
+            MERN Stack Developer | Book Nerd | Budding Chess Player | Yoga
+            Enthusiast
+          </h6>
         </div>
         <div className="footer">
           <a href="/site/blogs">Blog</a>
