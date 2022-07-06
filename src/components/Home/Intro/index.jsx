@@ -20,7 +20,7 @@ function Home() {
           <h6>MERN Stack Developer | Book Nerd | Budding Chess Player | Yoga Enthusiast</h6>
         </div>
         <div className="footer">
-          <a href="/blogs">Blog</a>
+          <a href="/site/blogs">Blog</a>
           <a href="/assets/pdfs/DIYA-MAHENDRU-RESUME.pdf" download>
             Resume
           </a>
