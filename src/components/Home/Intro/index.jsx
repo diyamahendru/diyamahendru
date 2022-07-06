@@ -10,7 +10,7 @@ function Home() {
         </div>
         <div className="intro-pic">
           <img
-            src="/assets/images/intropic.png"
+            src="https://diyamahendru.github.io/site/assets/images/intropic.png"
             className="display-picture"
             alt="display-pic"
           />
