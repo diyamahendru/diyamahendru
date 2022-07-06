@@ -9,9 +9,9 @@ const App = () => {
   return (
     <div className="container">
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/blogs" exact component={Blogs} />
-        <Route path="/blog/:id" component={Blog} />
+        <Route path="/home" exact component={Home} />
+        <Route path="/home/blogs" exact component={Blogs} />
+        <Route path="/home/blog/:id" component={Blog} />
         <Redirect to="/" />
       </Switch>
     </div>
