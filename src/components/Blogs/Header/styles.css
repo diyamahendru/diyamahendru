@@ -1,0 +1,21 @@
+.blogs-header {
+  text-align: center;
+}
+
+.blogs-header h2 {
+  font-size: 2rem;
+}
+
+.blogs-header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.blogs-header h1 span {
+  color: #a9a9a9;
+}
+
+.blogs-header p {
+  color: #a9a9a9;
+  font-weight: 500;
+}
