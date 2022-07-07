@@ -2,7 +2,8 @@
   display: flexbox;
   justify-content: space-between;
   text-align: left;
-  padding-top: 2rem;
+  padding-top: 1rem;
+  margin-left: 10rem;
 }
 
 h2 {
@@ -21,7 +22,6 @@ h6 {
   color: silver;
 }
 
-
 .intro-pic img {
   width: 20%;
   height: auto;
@@ -38,35 +38,37 @@ a {
   font-size: 0.8rem;
 }
 
-.intro-para{
-  width: 65%;
+.intro-para {
+  width: 70%;
 }
 
-p{
+p {
   padding-top: 1rem;
   color: silver;
 }
 
 @media (max-width: 768px) {
   .intro {
+    margin-left: 0rem;
     max-width: 100%;
   }
   .intro-pic img {
     width: 50%;
   }
-  .intro-para{
+  .intro-para {
     width: 90%;
   }
 }
 
 @media (max-width: 600px) {
   .intro {
+    margin-left: 0rem;
     max-width: 100%;
   }
   .intro-pic img {
     width: 50%;
   }
-  .intro-para{
+  .intro-para {
     width: 90%;
   }
 }

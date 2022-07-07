@@ -21,13 +21,6 @@ function Home() {
         <div className="intro-para">
           <p>Always on the lookout for interesting projects to build and work out of my comfort zone. When not programming, I like to indulge in reading, playing chess or doing yoga. </p>
         </div>
-        {/* <div className="footer">
-          <a href="/site/blogs">Blog</a>
-          <a href="/assets/pdfs/DIYA-MAHENDRU-RESUME.pdf" download>
-            Resume
-          </a>
-          <a href=">Connect</a>
-        </div> */}
       </div>
     </div>
   );
