@@ -6,7 +6,7 @@ function Resume() {
   return (
     <div>
       <Link className="resume-goBack" to="/site">
-        <span> &#8592;</span> <span>Go Back</span>
+        <span> &#8592;</span> <span>Home</span>
       </Link>
       <div>
         <Pic />
