@@ -1,0 +1,19 @@
+.footer {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.icons {
+  margin-top: 2rem;
+  display: inline-block;
+}
+
+.line {
+  margin-left: 0.5rem;
+  display: inline-block;
+  max-width: 70px;
+}
+
+img {
+  max-width: 100%;
+}

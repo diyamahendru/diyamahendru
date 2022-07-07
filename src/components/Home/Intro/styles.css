@@ -1,23 +1,12 @@
-.home {
-  background-image: url(https://cypresspixill.files.wordpress.com/2015/09/stars.gif);
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-height: 100%;
-  min-width: 100%;
-  width: 100%;
-  height: auto;
-}
-
 .intro {
   display: flexbox;
   justify-content: space-between;
-  text-align: center;
+  text-align: left;
   padding-top: 2rem;
 }
 
 h2 {
-  font-size: 2.5m;
+  font-size: 2.5rem;
   padding-top: 2rem;
 }
 
@@ -28,13 +17,10 @@ h4 {
 
 h6 {
   font-size: 1rem;
-  padding-top: 0.5rem;
-  text-align: center;
+  text-align: left;
+  color: silver;
 }
 
-.intro-pic {
-  padding-top: 4rem;
-}
 
 .intro-pic img {
   width: 20%;
@@ -52,12 +38,24 @@ a {
   font-size: 0.8rem;
 }
 
+.intro-para{
+  width: 65%;
+}
+
+p{
+  padding-top: 1rem;
+  color: silver;
+}
+
 @media (max-width: 768px) {
   .intro {
     max-width: 100%;
   }
   .intro-pic img {
     width: 50%;
+  }
+  .intro-para{
+    width: 90%;
   }
 }
 
@@ -67,5 +65,8 @@ a {
   }
   .intro-pic img {
     width: 50%;
+  }
+  .intro-para{
+    width: 90%;
   }
 }

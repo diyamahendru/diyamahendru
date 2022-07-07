@@ -1,0 +1,31 @@
+.resume {
+  text-align: center;
+}
+
+.resume-pic {
+  margin-top: 4rem;
+}
+
+.resume-download {
+  margin-top: 2rem;
+}
+
+img {
+  width: 40%;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  img {
+    width: 70%;
+  }
+}

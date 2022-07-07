@@ -1,10 +1,14 @@
 import Intro from "../../components/Home/Intro";
-import "./styles.css"
+import Footer from "../../components/Home/Footer";
+import Header from "../../components/Home/Header";
+import "./styles.css";
 
 const Home = () => {
   return (
     <div className="home">
+      <Header />
       <Intro />
+      <Footer />
     </div>
   );
 };
