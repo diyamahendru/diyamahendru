@@ -7,7 +7,7 @@ function Home() {
       <div className="intro">
         <div className="intro-pic">
           <img
-            src="/assets/images/intropic.png"
+            src="/assets/images/intropic2.png"
             className="display-picture"
             alt="display-pic"
           />
