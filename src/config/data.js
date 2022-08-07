@@ -19,15 +19,15 @@ export const blogList = [
     \n\n ###### 1. O (Big O)
     \n\n In simple words, big O is an upper bound on time. For example, printing all the values in an array of size of N takes O(N) but it’s upper bound can also be O(N^2) or O(N!). This is equivalent to the less than equal to relationship.\n\n   
     \n\n ###### 2. Ω (Big Omega)
-    \n\n This equivalent to big O but it for the lower bound. So printing an array of size N is Ω(N) but also Ω(log N) and Ω(1). \n\n 
+    \n\n This is equivalent to big O but it is for the lower bound. So printing an array of size N is Ω(N) but also Ω(log N) and Ω(1). \n\n 
     \n\n ###### 3. Θ (Big Theta)
     \n\n This gives a tight bound on runtime i.e. an algorithm is Θ(N) when that algorithm is both O(N) and Ω(N). \n\n 
-    \n\n ⭐ Sometimes O and Θ are merged together. Today the definition of O is closer to Θ. So O(N2) for printing an array of size N is seen incorrect, rather O(N) is used conventionally.
+    \n\n ⭐ Sometimes O and Θ are merged together. Today the definition of O is closer to Θ. So O(N^2) for printing an array of size N is seen incorrect, rather O(N) is used conventionally.
     \n\n ##Space Complexity
     \n\n It is defined as the space or the memory used in order to run an algorithm. Let’s say we need to create an array of size N, the space complexity for this algorithm will the O(N) while for creating an 2D matrix would be O(N^2). \n\n 
     \n\n Below is the Big O chart for reference.
     \n\n ![chart](/assets/images/blog1pic1.jpg) \n\n 
-    \n\n What we discussed above is different from Best, Worst and Average Case. Lets dive into these see how these are different.
+    \n\n What we discussed above is different from Best, Worst and Average Case. Lets dive into these and see how these are different.
     \n\n ## Best Case
     \n\n It is a scenario where in we have to perform the minimum number of steps on input data of n elements. Best case scenarios are usually not paid much attention to because they are not very useful concept. This is because we can pick any algorithm, provide a special case input and get O(1) time. \n\n 
     \n\n ## Worse Case
