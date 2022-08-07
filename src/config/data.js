@@ -26,8 +26,7 @@ export const blogList = [
     \n\n ##Space Complexity
     \n\n It is defined as the space or the memory used in order to run an algorithm. Let’s say we need to create an array of size N, the space complexity for this algorithm will the O(N) while for creating an 2D matrix would be O(N^2). \n\n 
     \n\n Below is the Big O chart for reference.
-    \n\n ![chart](/assets/images/blog1pic1.jpg)
-    \n\n 〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️ \n\n 
+    \n\n ![chart](/assets/images/blog1pic1.jpg) \n\n 
     \n\n What we discussed above is different from Best, Worst and Average Case. Lets dive into these see how these are different.
     \n\n ## Best Case
     \n\n It is a scenario where in we have to perform the minimum number of steps on input data of n elements. Best case scenarios are usually not paid much attention to because they are not very useful concept. This is because we can pick any algorithm, provide a special case input and get O(1) time. \n\n 
@@ -36,7 +35,8 @@ export const blogList = [
     \n\n ## Average Case
     \n\n It is a scenario where in we have to perform an average number of steps on input data of n elements. It is calculated by adding all the calculated values and dividing the sum by the total number of inputs. \n\n 
     \n\n ⭐ For most algorithms the average and the worse case scenarios calculate out to be the same.
-    \n\n ⭐ Best, worse and average case describe the Big O (or Big Theta) time for particular inputs.`,
+    \n\n ⭐ Best, worse and average case describe the Big O (or Big Theta) time for particular inputs. \n\n
+    \n\n  ![line](/assets/images/dividing-line.png) \n\n`,
     descImgs: ["/assets/images/author.jpg", "/assets/images/author.jpg"],
     authorName: "Diya Mahendru",
     authorAvatar: "/assets/images/author.jpg",
